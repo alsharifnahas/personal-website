@@ -2,8 +2,11 @@ import React, { Component } from 'react'
 import {
     recipeProject,
     wethearProject,
-    generatorProject,
-    plannerProject
+    comunityChestProject,
+    closetProject,
+
+
+
 } from '../Images/index';
 import styles from '../Style/project.module.css';
 export class Images extends Component {
@@ -28,16 +31,16 @@ export class Images extends Component {
             },
             {
 
-                projectImage: generatorProject,
-                projectName: 'Password Generator',
-                projectLink: "https://alsharifnahas.github.io/Password-Generator/.",
+                projectImage: comunityChestProject,
+                projectName: 'Community Chest',
+                projectLink: "community-chest134.herokuapp.com/",
 
             },
             {
 
-                projectImage: plannerProject,
-                projectName: 'Daily Planner',
-                projectLink: "https://alsharifnahas.github.io/WorkDay-EventPlanner/.",
+                projectImage: closetProject,
+                projectName: 'View Closet',
+                projectLink: "https://promethium.herokuapp.com/.",
 
             },
 
