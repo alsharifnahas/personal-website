@@ -17,19 +17,6 @@ export class Images extends Component {
 
         const projects = [
             {
-                projectImage: recipeProject,
-                projectName: 'Recipe Web Application',
-                projectLink: "https://obscure-lowlands-13606.herokuapp.com/",
-
-            },
-            {
-
-                projectImage: wethearProject,
-                projectName: '5-Day Weather Forecast',
-                projectLink: "https://alsharifnahas.github.io/Weather-Forecast/.",
-
-            },
-            {
 
                 projectImage: comunityChestProject,
                 projectName: 'Community Chest',
@@ -43,6 +30,20 @@ export class Images extends Component {
                 projectLink: "https://promethium.herokuapp.com/.",
 
             },
+            {
+                projectImage: recipeProject,
+                projectName: 'Recipe Web Application',
+                projectLink: "https://obscure-lowlands-13606.herokuapp.com/",
+
+            },
+            {
+
+                projectImage: wethearProject,
+                projectName: '5-Day Weather Forecast',
+                projectLink: "https://alsharifnahas.github.io/Weather-Forecast/.",
+
+            },
+
 
 
 
