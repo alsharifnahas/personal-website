@@ -14,24 +14,9 @@ export class Images extends Component {
 
         const projects = [
             {
-
                 projectImage: recipeProject,
                 projectName: 'Recipe Web Application',
-                projectLink: "https://alsharifnahas.github.io/recipesapp/.",
-
-            },
-            {
-
-                projectImage: eplProject,
-                projectName: 'EPL Soccer Application',
-                projectLink: "https://alsharifnahas.github.io/EPL/.",
-
-            },
-            {
-
-                projectImage: codeQuizProject,
-                projectName: 'Coding Quiz',
-                projectLink: "https://alsharifnahas.github.io/Code-Quiz/.",
+                projectLink: "https://obscure-lowlands-13606.herokuapp.com/",
 
             },
             {

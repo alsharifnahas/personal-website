@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import styles from '../Style/nav-bar.module.css';
-import resume from '../assets/files/Alsharif-Eid-Nahas_Resume.pdf'
+import resume from '../assets/files/Alsharif-Nahas.pdf'
 export class Navbar extends Component {
     render() {
         return (
