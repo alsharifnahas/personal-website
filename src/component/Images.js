@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {
     recipeProject,
-    wethearProject,
+    covidDonationProject,
     comunityChestProject,
     closetProject,
 
@@ -21,26 +21,31 @@ export class Images extends Component {
                 projectImage: comunityChestProject,
                 projectName: 'Community Chest',
                 projectLink: "community-chest134.herokuapp.com/",
+                githubLink: "https://github.com/alsharifnahas/community-chest"
 
             },
             {
 
                 projectImage: closetProject,
-                projectName: 'View Closet',
+                projectName: "What's in The Closet",
                 projectLink: "https://promethium.herokuapp.com/.",
+                githubLink: "https://github.com/alsharifnahas/What-is-in-the-Closet"
 
             },
             {
                 projectImage: recipeProject,
-                projectName: 'Recipe Web Application',
+                projectName: 'Recipe Search Application',
                 projectLink: "https://obscure-lowlands-13606.herokuapp.com/",
+                githubLink: "https://github.com/alsharifnahas/recipesapp"
+
 
             },
             {
 
-                projectImage: wethearProject,
-                projectName: '5-Day Weather Forecast',
-                projectLink: "https://alsharifnahas.github.io/Weather-Forecast/.",
+                projectImage: covidDonationProject,
+                projectName: 'Covid Target Donation',
+                projectLink: "https://alsharifnahas.github.io/covid-targeted-donations/",
+                githubLink: "https://github.com/alsharifnahas/covid-targeted-donations"
 
             },
 
@@ -75,7 +80,7 @@ export class Images extends Component {
                         }}
                         onClick={() => { window.open(project.projectLink) }}
                     />
-
+                    <div className={styles.githubLink} onClick={() => { window.open(project.githubLink) }}> <i className="fa fa-angle-double-right"></i> Github Link</div>
 
                 </div>
 
