@@ -20,7 +20,7 @@ export class Images extends Component {
 
                 projectImage: comunityChestProject,
                 projectName: 'Community Chest',
-                projectLink: "community-chest134.herokuapp.com/",
+                projectLink: "https://community-chest134.herokuapp.com/",
                 githubLink: "https://github.com/alsharifnahas/community-chest"
 
             },
